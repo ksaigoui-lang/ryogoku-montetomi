@@ -29,7 +29,7 @@ header.site{position:sticky;top:0;z-index:50;background:rgba(250,245,236,.94);ba
 .tel-btn{background:var(--wine);color:#fff;text-decoration:none;font-size:13px;font-weight:700;padding:9px 16px;border-radius:999px;white-space:nowrap}
 .tel-btn:active{background:var(--wine-dark)}
 
-.hero{max-width:960px;margin:0 auto;padding:56px 20px 40px;text-align:center}
+.hero{max-width:960px;margin:0 auto;padding:30px 20px 40px;text-align:center}
 .hero.latin{font-size:13px;color:var(--turmeric-dark);letter-spacing:.4em}
 .hero h1{font-family:"Shippori Mincho",serif;font-size:34px;font-weight:700;letter-spacing:.08em;margin:10px 0 4px}
 .hero.en{font-family:"Cormorant Garamond",serif;font-size:19px;letter-spacing:.3em;color:var(--sub)}
@@ -128,9 +128,9 @@ footer.f-name{font-family:"Shippori Mincho",serif;font-size:15px;color:var(--ink
 html.splash-open{overflow:hidden}
 @media(prefers-reduced-motion:reduce){.splash-bg,.splash-inner{animation:none}.splash-video{display:none}}
 .brand-photo{width:100%;height:230px;object-fit:cover;border-radius:10px;display:block;margin-bottom:20px}
-.hero-photo{margin:30px auto 0;max-width:640px}
-.hero-photo img{width:100%;border-radius:14px;display:block;box-shadow:0 4px 18px rgba(60,40,20,.14)}
-.hero-photo figcaption{font-size:12.5px;color:var(--sub);margin-top:8px;text-align:center}
+.top-photo{margin:0}
+.top-photo img{width:100%;height:46vh;min-height:280px;object-fit:cover;object-position:center 62%;display:block}
+.top-photo figcaption{font-size:12.5px;color:var(--sub);text-align:center;padding:9px 16px 0}
 
 @media (max-width:640px){
 .hero h1{font-size:27px}
@@ -166,6 +166,11 @@ table.info th{width:30%;font-size:12.5px}
 </div>
 </header>
 
+<figure class="top-photo">
+<img src="storefront.webp" alt="トラットリア モンテトミの店舗外観">
+<figcaption>お店の外観｜フィレンツェの路地のような壁面と「Entrata」の看板が目印です（両国駅東口より徒歩4分）</figcaption>
+</figure>
+
 <div class="hero">
 <div class="latin">RYOGOKU ・ TOKYO</div>
 <h1>トラットリア モンテトミ</h1>
@@ -177,10 +182,6 @@ table.info th{width:30%;font-size:12.5px}
 <div class="t-main" id="todayMain">—</div>
 <div class="t-sub" id="todaySub">—</div>
 </div>
-<figure class="hero-photo">
-<img src="storefront.webp" alt="トラットリア モンテトミの店舗外観">
-<figcaption>お店の外観｜フィレンツェの路地のような壁面と「Entrata」の看板が目印です（両国駅東口より徒歩4分）</figcaption>
-</figure>
 </div>
 
 <section id="week">
